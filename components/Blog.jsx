@@ -1,26 +1,21 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
-import ProjectItem from './ProjectItem';
 import Blogitem from './Blogitem';
 import Defi from '../public/assets/blogs/Defi.png';
 import Hardwarekeys from '../public/assets/blogs/Hardwarekeys.png';
 import Blockchain from '../public/assets/blogs/Blockchain.png';
 import checkm8 from '../public/assets/blogs/checkm8.png';
-import flutter from '../public/assets/blogs/flutter.png';
 
 
 const Blog = () => {
   return (
     <div id='Blog' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+      <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Blogs
         </p>
+
         <h2 className='py-4'>Blogs i've Written so far!</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <Blogitem
