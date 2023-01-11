@@ -16,7 +16,7 @@ const Blog = () => {
           Blogs
         </p>
 
-        <h2 className='py-4'>Blogs i've Written so far!</h2>
+        <h2 className='py-4'>Blogs i&apos;ve Written so far!</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <Blogitem
             title='What is Defi'
