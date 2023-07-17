@@ -1,8 +1,3 @@
-import Image from 'next/image';
-import React from 'react';
-import dingleboxImg from '../public/assets/sajidprojects/dinglebox.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
 
 const dinglebox = () => {
   return (
